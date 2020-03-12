@@ -9,4 +9,5 @@ console.log(num);
 
 var ques = prompt('What is your goal');
 
-document.getElementById('para').innerHTML = "You Have Any Question "+ques +"?";
+
+document.getElementById('para').innerHTML = "today is js day 2";
