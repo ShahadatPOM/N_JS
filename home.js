@@ -32,3 +32,10 @@ function greeting(){
 	return "Hello"+ ' ' + name;
 }
 document.getElementById('para').innerHTML = greeting();
+
+function sum(num1, num2){
+	var result = num1+num2;
+	console.log(result);
+}
+
+sum(4, 6);
