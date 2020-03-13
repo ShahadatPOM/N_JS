@@ -16,3 +16,19 @@ document.getElementById('para').innerHTML = "today is js day 2";
 var num1 = 4;
 num1++;
 console.log(num1);
+
+// function in js
+
+function fun(){
+	alert('this is a function');
+	console.log('this is from console');
+}
+
+
+fun();
+
+function greeting(){
+	var name = prompt('what is your name');
+	return "Hello"+ ' ' + name;
+}
+document.getElementById('para').innerHTML = greeting();
