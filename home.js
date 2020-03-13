@@ -11,3 +11,8 @@ var ques = prompt('What is your goal');
 
 
 document.getElementById('para').innerHTML = "today is js day 2";
+
+// numbers in js
+var num1 = 4;
+num1++;
+console.log(num1);
