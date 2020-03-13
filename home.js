@@ -55,7 +55,7 @@ for(var i=1; i<=10; i++){
 	console.log(i);
 }*/
 // Data types
-let youAge =23;//number
+/*let youAge =23;//number
 let yourName = 'Naiem';//string
 let fullName = {first: 'Md. Shahadat Hossain', last: 'Naiem'}; //object
 let truth = false; //boolean
@@ -78,4 +78,41 @@ console.log(fruit.charAt(0));
 console.log(fruit[2]);
 console.log(fruit.toUpperCase());
 console.log(fruit.toLowerCase());//
-console.log(fruit.split(','));//split by a given separator
+console.log(fruit.split(','));//split by a given separator*/
+
+// Array
+let fruits = ['banana', 'apple', 'orange', 'blackberry'];
+let cars = new Array('BMW', 'MBNZ', 'OD', 'FRI');
+console.log(fruits[1]);// access the array value
+fruits[1] = 'Custom';// change or replace array value
+console.log(fruits[1]);
+for(let i=0; i<=fruits.length; i++){
+
+	console.log(i);
+}
+
+// Array common methods
+console.log(fruits.toString());
+console.log(fruits.join('*'));
+console.log(fruits.pop(),  fruits);//remove last item of an array
+console.log(fruits.push('blackberry'), fruits);//appends
+console.log(fruits.shift(), fruits); //remove first item of an array
+console.log(fruits.unshift('banana'), fruits);
+
+let vegetables = ['tomato', 'asparagus', 'broccoli'];
+let anothers = ['tomato', 'asparagus'];
+let allGroceries = fruits.concat(vegetables, anothers);
+console.log(allGroceries);
+console.log(allGroceries.slice(2, 5));
+console.log(allGroceries.reverse());
+console.log(allGroceries.sort());//sorted in ascending order
+
+let someNumbers = [1, 2 ,54, 76, 4, 77, 111, 3434, 8, 64, 55, 943, 87];
+console.log(someNumbers.sort(function(a,b) {return(a-b)}));//sorted in ascending order
+console.log(someNumbers.sort(function(a,b) {return(b-a)}));//sorted in descending order
+
+let emptyArray = [];
+for(let num=0; num < 10; num++){
+	emptyArray.push(num);
+	console.log(emptyArray);
+}
