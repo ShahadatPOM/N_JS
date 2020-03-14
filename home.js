@@ -142,6 +142,7 @@ console.log(student.age);
 console.log(student.studentInfo());*/
 
 // Conditionals control flows(if, else)
+/*
 let age = prompt('what is your age?');
 if((age >=18) && (age <=35)){
 	status = 'my way';
@@ -149,4 +150,23 @@ if((age >=18) && (age <=35)){
 }else{
 	status = 'not my way';
 	console.log(status);
+}*/
+
+// Switch statements
+// differentiate between weekday vs. weekend
+let day = prompt('which day you want to check?');
+switch(day){
+	case 'Friday':
+		text = 'Weekend';
+		break;
+	case 'saturday':
+		text = 'Weekend';
+		break;
+	case 'sunday':
+		text = 'Weekend';
+		break;
+	default:
+		text = 'Weekday';
+		break;
 }
+console.log(text);
