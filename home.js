@@ -120,7 +120,7 @@ console.log(emptyArray);
 */
 
 // object in JS
-let student = {
+/*let student = {
 	first: 'Md.',
 	last: 'Naiem',
 	age: 23,
@@ -139,4 +139,14 @@ student.last = 'Shahadat';
 console.log(student.last);//change attribute value
 student.age++;
 console.log(student.age);
-console.log(student.studentInfo());
+console.log(student.studentInfo());*/
+
+// Conditionals control flows(if, else)
+let age = prompt('what is your age?');
+if((age >=18) && (age <=35)){
+	status = 'my way';
+	console.log(status);
+}else{
+	status = 'not my way';
+	console.log(status);
+}
