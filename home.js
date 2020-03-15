@@ -154,6 +154,7 @@ if((age >=18) && (age <=35)){
 
 // Switch statements
 // differentiate between weekday vs. weekend
+/*
 let day = prompt('which day you want to check?');
 switch(day){
 	case 'Friday':
@@ -169,4 +170,6 @@ switch(day){
 		text = 'Weekday';
 		break;
 }
-console.log(text);
+console.log(text);*/
+
+// JSON
