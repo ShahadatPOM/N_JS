@@ -16,4 +16,11 @@ function reset() {
 	document.getElementById('text').remove();
 }
 
+function catGenerator() {
+	var img = document.createElement('img');
+	img.setAttribute('src', 'static/images/cat3.gif');
+	document.getElementById('img-container').appendChild(img);
+
+}
+
 
