@@ -1,3 +1,4 @@
+/*
 console.log('16.03.2020');
 
 function displayDate(){
@@ -6,10 +7,10 @@ function displayDate(){
 
 function randomSort(){
 	var number = [1, 2, 33, 14, 75,23, 65, 56]	
-	/*number.sort(
+	/!*number.sort(
 		function(a, b) { 
 			return 0.5 - Math.random() 
-		})*/
+		})*!/
 	document.getElementById('random').innerHTML = max(number);
 
 }
@@ -27,3 +28,4 @@ function max(num){
 
 // find the heighest or lowest array vlue
 
+*/
