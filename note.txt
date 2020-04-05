@@ -1,4 +1,0 @@
-JSON Related
-//use to represent data
-//stand for js obj notation
-//generally used for API to carry information that very light weight
